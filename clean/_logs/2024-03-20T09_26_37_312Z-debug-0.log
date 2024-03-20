@@ -1,0 +1,55 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.2.4
+2 info using node@v20.11.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/techhive/Desktop/flutter_project/React/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:/Users/techhive/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 3ms
+17 timing npm:load:configload Completed in 3ms
+18 timing config:load:flatten Completed in 1ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install /Users/techhive/.npm/_cacache/content-v2/sha512/64/29/60e80698bda9af60413cd9ddc8c9ddef49222343ea1d823693cd1b8edeceeda0274529cce86f68b4cc287b244f245a7d7bcaf016854571bea1b051a96c44
+22 verbose argv "install" "--cache" "clean" "/Users/techhive/.npm/_cacache/content-v2/sha512/64/29/60e80698bda9af60413cd9ddc8c9ddef49222343ea1d823693cd1b8edeceeda0274529cce86f68b4cc287b244f245a7d7bcaf016854571bea1b051a96c44"
+23 timing npm:load:setTitle Completed in 5ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/Users/techhive/Desktop/flutter_project/React/clean/_logs/2024-03-20T09_26_37_312Z-
+26 verbose logfile /Users/techhive/Desktop/flutter_project/React/clean/_logs/2024-03-20T09_26_37_312Z-debug-0.log
+27 timing npm:load:logFile Completed in 3ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 18ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 186ms
+34 timing idealTree Completed in 192ms
+35 timing command:install Completed in 221ms
+36 verbose stack Error: ENOENT: no such file or directory, open '/Users/techhive/.npm/_cacache/content-v2/sha512/64/29/60e80698bda9af60413cd9ddc8c9ddef49222343ea1d823693cd1b8edeceeda0274529cce86f68b4cc287b244f245a7d7bcaf016854571bea1b051a96c44/package.json'
+37 verbose cwd /Users/techhive/Desktop/flutter_project/React
+38 verbose Darwin 23.4.0
+39 verbose node v20.11.0
+40 verbose npm  v10.2.4
+41 error code ENOENT
+42 error syscall open
+43 error path /Users/techhive/.npm/_cacache/content-v2/sha512/64/29/60e80698bda9af60413cd9ddc8c9ddef49222343ea1d823693cd1b8edeceeda0274529cce86f68b4cc287b244f245a7d7bcaf016854571bea1b051a96c44/package.json
+44 error errno -2
+45 error enoent ENOENT: no such file or directory, open '/Users/techhive/.npm/_cacache/content-v2/sha512/64/29/60e80698bda9af60413cd9ddc8c9ddef49222343ea1d823693cd1b8edeceeda0274529cce86f68b4cc287b244f245a7d7bcaf016854571bea1b051a96c44/package.json'
+46 error enoent This is related to npm not being able to find a file.
+46 error enoent
+47 verbose exit -2
+48 timing npm Completed in 338ms
+49 verbose unfinished npm timer reify 1710926797429
+50 verbose unfinished npm timer reify:loadTrees 1710926797455
+51 verbose unfinished npm timer idealTree:userRequests 1710926797642
+52 verbose code -2
+53 error A complete log of this run can be found in: /Users/techhive/Desktop/flutter_project/React/clean/_logs/2024-03-20T09_26_37_312Z-debug-0.log
